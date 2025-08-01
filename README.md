@@ -67,7 +67,8 @@ npm install
 
 # Set up environment variables
 cp .env.example .env.local
-# Edit .env.local if needed
+# The .env.local file will be created from .env.example
+# This file is gitignored and should contain your local settings
 
 # Run the development server
 npm run dev

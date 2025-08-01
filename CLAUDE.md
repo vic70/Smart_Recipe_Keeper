@@ -78,3 +78,9 @@ Frontend requires:
 - Backend API runs on port 8000
 - Frontend runs on port 3000
 - CORS configured for local development
+
+## Environment Files
+
+- `.env.example` files are templates and are committed to the repository
+- `.env` (backend) and `.env.local` (frontend) are gitignored and contain actual secrets
+- Always use `.env.example` as a template when setting up a new environment
