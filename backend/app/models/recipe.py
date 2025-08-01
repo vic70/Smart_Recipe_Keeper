@@ -87,7 +87,7 @@ class Recipe(Document):
         ]
     
     class Config:
-        schema_extra = {
+        json_schema_extra = {
             "example": {
                 "user_id": "user123",
                 "title": "Spaghetti Carbonara",
